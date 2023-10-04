@@ -1,0 +1,25 @@
+{
+  "cookies": [
+    {
+      "name": "XSRF-TOKEN",
+      "value": "eyJpdiI6ImsrOXhKSUxmdnVzVkxEdFg1V3BJUVE9PSIsInZhbHVlIjoibEIwSEV2bGxVbVlYYTdLQXROOVhVelJ6ODNMSTBwSUFxNndrdjRoZ2tQeFZ0dkgwbytsMkxCeTVIZG4xWEpXZDllUnhoWGVueWZhaUpmQ3M1YXVQM25FUjhYTmh1UE9YTHovbGxvQUJIU21OWW91ejNpMUJLQ2xieFhUbWt4aEwiLCJtYWMiOiI2MjYyZWEyZDUwNWI2NDYyZjU0Mjc2NzY1YzA0MzU5MDM0YzQwZDQxNGFlYmY1NTJjNDM3OTM1N2MzODhlYjdhIn0%3D",
+      "domain": "uat.dashboard.seoudisupermarket.com",
+      "path": "/",
+      "expires": 1696414256.736373,
+      "httpOnly": false,
+      "secure": false,
+      "sameSite": "Lax"
+    },
+    {
+      "name": "laravel_session",
+      "value": "eyJpdiI6InprVmJSN21LZEtzcTZ1c29RSTNTYUE9PSIsInZhbHVlIjoiTTVCcjlMVGVTOW5RaXBlOUt2bDF1QkxyZnVwZzV5amZjN2ZDdXBzSjV4QVFBSmxmdURTSXpyb1RsYStGNkJRRVZidlBxNEQrR3lLTm5HZER3YkpYcTY5cUtvNVJpcjVwQnFzZXhRbkU0S0hYSWlzWHhJdGw4ZldJYTc5SDZ5L0UiLCJtYWMiOiJhOWMwMGEzNzBiZjYwZDA1YmE0YzJhNGU0ZDY2NzVjMTVjYmE0NTI4ZGM5YjFiOTdjOWM4NzNjODQwNjk0YzZhIn0%3D",
+      "domain": "uat.dashboard.seoudisupermarket.com",
+      "path": "/",
+      "expires": 1696414256.73645,
+      "httpOnly": true,
+      "secure": false,
+      "sameSite": "Lax"
+    }
+  ],
+  "origins": []
+}
