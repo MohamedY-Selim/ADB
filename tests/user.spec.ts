@@ -34,11 +34,7 @@ test.describe("ADB Test Cases", () => {
     const tableHead = await pendingOrdersPage.getTableHead();
     await expect(tableHead).toBeVisible();
     const processingCard = await pendingOrdersPage.getProcessingCard();
-    const noPendingOrdersMessage =
-      await pendingOrdersPage.getNoPendingOrdersMessage();
-    if (await processingCard.isHidden())
-      await expect(noPendingOrdersMessage).toBeVisible();
-    else await expect(noPendingOrdersMessage).toBeHidden();
+    await expect(processingCard).toBeHidden();
   });
   test("OnGoing Orders Test", async ({ page }) => {
     await homePage.clickOnMenuItem(1);
